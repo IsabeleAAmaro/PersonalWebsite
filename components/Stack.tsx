@@ -1,5 +1,4 @@
 export default function Stack() {
-  // Create a 2x7 grid of tech stack items
   const stackItems = Array(14)
     .fill(null)
     .map((_, i) => i + 1)

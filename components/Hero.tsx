@@ -14,7 +14,7 @@ export default function Hero() {
     <section id="hero" className="min-h-screen pt-24 px-8 flex flex-col justify-center relative">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div className="border-l-2 border-primary pl-8">
-          <h1 className="heading text-6xl md:text-7xl lg:text-8xl leading-tight">
+          <h1 className="heading text-[150px] opacity-90 leading-tight">
             Isabele
             <br />
             Amaro

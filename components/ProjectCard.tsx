@@ -15,7 +15,7 @@ export default function ProjectCard({ tags }: ProjectCardProps) {
           <ProjectTag key={index} text={tag.text} color={tag.color} />
         ))}
       </div>
-      <div className="border-4 border-primary p-2 rounded-sm">
+      <div className="border-8 border-primary rounded-sm">
         <div className="aspect-square bg-white rounded-sm overflow-hidden">
           <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/placeholder%20image-qP9VJbxHgx8jC1PrbTOuHVhxvZOPwl.png"

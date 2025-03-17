@@ -18,12 +18,31 @@ body {
   font-family: var(--font-noto-serif);
 }
 
+@font-face {
+  font-family: 'Mirage Thin';
+  src: url('made-mirage.thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Malta Mini Thin';
+  src: url('tbj-malta-mini-edition.thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
 .heading {
-  font-weight: 200; /* Display Thin */
+  font-family: 'Mirage Thin', sans-serif;
+  font-weight: 100; /* Display Thin */
 }
 
 .body-text {
-  font-weight: 200; /* Extralight */
+  font-weight: 300; /* Extralight */
+}
+
+.header-text {
+  font-weight: 100;
 }
 
 .nav-link {
@@ -63,6 +82,10 @@ body {
 
 .scroll-arrow {
   animation: bounce 2s infinite;
+}
+
+.personalized-footer {
+  background-color: rgba(0, 79, 45, .25);
 }
 
 @keyframes bounce {

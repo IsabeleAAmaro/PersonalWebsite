@@ -11,9 +11,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#005C3B", // Dark green color from the design
+        primary: "#004F2D", // Dark green color from the design
         secondary: "#D9DBC9", // Light beige color for backgrounds
-        text: "#1A1A1A",
+        text: "#03110B",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -67,6 +67,8 @@ const config: Config = {
       },
       fontFamily: {
         serif: ["var(--font-noto-serif)"],
+        miragethin: ['Mirage Thin', 'sans-serif'],
+        maltathin: ['Malta Mini Thin', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

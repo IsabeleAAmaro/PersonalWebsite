@@ -10,9 +10,8 @@ const notoSerif = Noto_Serif({
 })
 
 export const metadata = {
-  title: "Isabele Amaro - Portfolio",
-  description: "Portfolio profissional de Isabele Amaro",
-    generator: 'v0.dev'
+  title: "Isabele Amaro",
+  description: "Portfolio profissional de Isabele Amaro"
 }
 
 export default function RootLayout({

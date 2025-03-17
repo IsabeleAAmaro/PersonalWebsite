@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import Header from "@/components/Header"
-import Hero from "@/components/Hero"
-import Experiences from "@/components/Experiences"
+import Header from "../components/Header"
+import Hero from "../components/Hero"
+import Experiences from "../components/Experiences"
 import Stack from "@/components/Stack"
 import Projects from "@/components/Projects"
 import Footer from "@/components/Footer"
