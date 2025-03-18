@@ -1,10 +1,10 @@
 export default function Stack() {
-  const stackItems = Array(14)
+  const stackItems = Array(12)
     .fill(null)
     .map((_, i) => i + 1)
 
   return (
-    <section id="stack" className="min-h-screen py-16 px-8">
+    <section id="stack" className="min-h-fit py-16 px-8">
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex justify-end mb-16">
           <div className="border-l-2 border-primary pl-8">

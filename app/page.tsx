@@ -30,14 +30,14 @@ export default function Home() {
   }, [])
 
   return (
-    <main ref={scrollRef} className="min-h-screen">
-      <Header />
-      <Hero />
-      <Experiences />
-      <Stack />
-      <Projects />
-      <Footer />
-    </main>
+      <main ref={scrollRef} className="min-h-screen">
+          <Header/>
+          <Hero/>
+          <Experiences/>
+          <Stack/>
+          <Projects/>
+          <Footer/>
+      </main>
   )
 }
 
