@@ -41,11 +41,11 @@ export default function Header() {
                 className="nav-link text-[#03110B]/100 header-text text-[36px]">
             github
           </Link>
-          <Link href="https://linkedin.com" target="_blank"
+          <Link href="https://www.linkedin.com/in/isabele-amaro/" target="_blank"
                 className="nav-link text-[#03110B]/100 header-text text-[36px]">
             linkedin
           </Link>
-          <Link href="#contato" className="nav-link text-[#03110B]/100 header-text text-[36px]">
+          <Link href="mailto:isabeleamaro@edu.unirio.br" className="nav-link text-[#03110B]/100 header-text text-[36px]">
             contato
           </Link>
         </nav>
