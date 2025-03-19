@@ -6,7 +6,6 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 248, 248, 246;
   --background-end-rgb: 248, 248, 246;
-  --texture: url(https://i.gyazo.com/a26366e538851a5c569ff648e99b7fd4.png);
 }
 
 html {
@@ -15,7 +14,8 @@ html {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-start-rgb));
+  background-size: cover;
+  background: rgb(var(--background-start-rgb)) url('Paper.png') repeat center;
   font-family: var(--font-noto-serif);
 }
 
