@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
       <header
-          className="fixed w-full top-0 z-50 py-4 px-8 flex justify-between items-center bg-[#f8f8f6] backdrop-blur-sm">
+          className="fixed w-full top-0 z-50 py-4 px-8 flex justify-between items-center backdrop-blur-sm">
         <nav className="flex space-x-8">
           <Link href="https://github.com/IsabeleAAmaro" target="_blank"
                 className="nav-link text-[#03110B]/100 header-text text-[36px]">
