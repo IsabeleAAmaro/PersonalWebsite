@@ -44,9 +44,7 @@ export default function Hero() {
 
         <div>
           <p className="body-text text-xl leading-relaxed text-justify text-gray-700">
-            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem.
+Desenvolvedora full stack, apaixonada por tecnologia, inovação e aprendizado contínuo. Com experiência em instituições financeiras e projetos acadêmicos, atuo no desenvolvimento de soluções web e mobile, unindo backend, frontend e integração de sistemas com foco em impacto real.
           </p>
         </div>
       </div>
