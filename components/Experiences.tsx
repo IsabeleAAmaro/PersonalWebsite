@@ -23,7 +23,7 @@ export default function Experiences() {
     },
     {
       title: "Pesquisadora Júnior em Ciências da Saúde e Engenharia de Software, \nUniversidade Federal do Estado do Rio de Janeiro (UNIRIO)",
-      period: "Novembro 2024 - Atualmente | Rio de Janeiro, Brasil",
+      period: "Novembro de 2024 - Atualmente | Rio de Janeiro, Brasil",
       description:
         "Projeto de pesquisa: LABIMH MOBILE - Desenvolvimento de baterias de avaliações de enfermagem e biociências em aplicativos móveis. O Laboratório de Biociências da Motricidade Humana (LABIMH) é um centro dedicado à pesquisa na área da motricidade humana, sendo afiliado a Universidade Federal do Estado do Rio de Janeiro e Universidade Tiradentes, em Aracaju, Sergipe.\n" +
           "\n" +
