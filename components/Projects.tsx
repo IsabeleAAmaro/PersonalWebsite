@@ -47,8 +47,8 @@ export default function Projects() {
   return (
     <section id="projetos" className="min-h-screen py-16 px-8 bg-secondary">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="flex justify-end mb-16">
-          <div className="border-l-2 border-primary pl-8 mb-16">
+        <div className="flex justify-center md:justify-end mb-16">
+          <div className="border-l-2 border-primary pl-8 text-center md:text-right mb-16">
             <h2 className="heading text-5xl md:text-6xl">Projetos</h2>
           </div>
         </div>

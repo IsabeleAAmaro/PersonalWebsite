@@ -17,6 +17,5 @@ export default function ProjectTag({ text, color }: ProjectTagProps) {
     }
   }
 
-  return <span className={`px-2 py-1 rounded-full ${getTagColor()}`}>{text}</span>
+  return <span className={`px-2 py-1 text-xs rounded-full ${getTagColor()}`}>{text}</span>
 }
-

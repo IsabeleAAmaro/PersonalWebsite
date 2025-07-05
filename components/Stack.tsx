@@ -18,12 +18,12 @@ export default function Stack() {
   return (
     <section id="stack" className="min-h-fit py-16 px-8">
       <div className="max-w-7xl mx-auto w-full">
-        <div className="flex justify-end mb-16">
-          <div className="border-l-2 border-primary pl-8">
+        <div className="flex justify-center md:justify-end mb-16">
+          <div className="border-l-2 border-primary pl-8 text-center md:text-right">
             <h2 className="heading text-5xl md:text-6xl">Minha Stack</h2>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {stackImages.map((image, index) => (
             <div key={index} className="aspect-square rounded-md flex items-center justify-center">
               <img
